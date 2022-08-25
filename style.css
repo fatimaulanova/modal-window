@@ -91,3 +91,44 @@
     font-size: 21px;
     cursor: pointer;
 }
+
+
+.popup{
+    display: none;
+    margin-top: 200px;
+    font-family: "Montserrat", sans-serif;
+    width: 400px;
+    background: #fff;
+    border-radius: 6px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 0 30px 30%;
+    color: #333;
+}
+.popup img{
+    width: 90px;
+    margin-top: -50%;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.popup h2{
+    font-size: 38px;
+    font-weight: 500;
+    margin: 30px 0 10px;
+}
+.popup button{
+    width: 90%;
+    margin-top: 50px;
+    padding: 10px 0;
+    background: #1e4c83;
+    color: white;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
